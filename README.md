@@ -1,9 +1,14 @@
 # AirportScheduler
 Aiprort Scheduler MMT
 
-# API to fetch Data
-localhost:8080/getFlights?src=DEL&dest=BLR -> please replace src = <src> and dest =<dest> in the API
+### API to fetch Data
+**API Endpoint:**
+`http://localhost:8080/getFlights?src=<src>&dest=<dest>`
 
-# Changes in Application.properties
+- `<src>` → Source airport code (e.g., `DEL`)
+- `<dest>` → Destination airport code (e.g., `BLR`)
+
+
+### Changes in Application.properties
 In application.properties:
-  app.data.pathname=your path to CSV
+  app.data.pathname=`<your path to CSV>`
